@@ -1,5 +1,5 @@
 import playButton from "../play-button.svg"
-import tqbg from "../assets/tqbg.jpg"
+import tqbg from "../assets/2.jpg"
 import { useNavigate } from "react-router-dom";
 
 function Home()
@@ -20,16 +20,16 @@ function Home()
                                 <div className="my-2 display-1 fade-in-text">Taqneeq
                                 </div>
                                 <h1 className="mt-2 display-3 fw-bold fade-in-text delayed">15.0</h1>
-                                <strong className='fw-bold fade-in-text delayed'>ONE AND ONLY TEACH FEST OF NMIMS</strong>
+                                <strong className='fw-bold fade-in-text delayed'>ONE AND ONLY TECH FEST OF NMIMS</strong>
                             </div>
                         </div>
-                        <div className='mt-6'>
+                        <div className='mt-5'>
                             <div className="row fade-in-text delayed1">
                                 <div className="col-auto">
                                     <img className="play-icon mt-2" id="play" src={playButton} alt="Your SVG" onClick={routeChange}></img>
                                 </div>
                                 <div className="col-9 col-md-4">
-                                    <div className='fw-bold fs-5'>Check out our TqRewind</div>
+                                    <div className='fw-bold fs-5'>Check Out Our Events Page!</div>
                                     <div className=''>Memories, Fun, Technical events, Innovative Experience. You name it we have it.</div>
                                 </div>
                             </div>

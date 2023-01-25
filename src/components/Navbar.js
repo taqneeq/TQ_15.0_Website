@@ -13,17 +13,17 @@ export default function Navbar()
                         <div>
                             <div>
                                 <ul>
-                                    <li><a href="#"><b>About</b></a></li>
-                                    <li><a href="#"><b>Services</b></a></li>
-                                    <li><a href="#"><b>Project</b></a></li>
-                                    <li><a href="#"><b>Case Studies</b></a></li>
-                                    <li><a href="#"><b>Contact</b></a></li>
+                                    <li><a href="sponsors"><b>Sponsors</b></a></li>
+                                    <li><a href="abouttq"><b>About TQ</b></a></li>
+                                    <li><a href="schedule"><b>Schedule</b></a></li>
+                                    <li><a href="events"><b>Events</b></a></li>
+                                    <li><a href="contactus"><b>Contact</b></a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-                <a class="navbar-brand fw-bold" href="contactus">Contact</a>
+                <a class="navbar-brand fw-bold" href="contactus"></a>
                 <a class="navbar-brand" href="/">
                     <img src={tqlogo} width="65" height="65" alt="" />
                 </a>
