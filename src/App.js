@@ -9,6 +9,7 @@ import Preloader from './pages/Preloader';
 import Head from './pages/Head';
 import ParentContainer from './pages/ParentContainer';
 import Timeline from './pages/timeline';
+import Workshop from './pages/Workshop';
 import Event from './pages/Event';
 
 
@@ -24,6 +25,7 @@ function App()
                 <Route exact path="sponsors" element={<Head />} />
                 <Route exact path="abouttq" element={<ParentContainer />} />
                 <Route exact path="schedule" element={<Timeline />} />
+                <Route exact path="workshops" element={<Workshop />} />
                 <Route exact path="events" element={<Event />} />
             </Routes>
         </BrowserRouter>
