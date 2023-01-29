@@ -1156,7 +1156,11 @@ body {
 }
 
 .container-event {
+<<<<<<< HEAD
 	max-width: 1000px;
+=======
+	max-width: 600px;
+>>>>>>> a83f4a7 (Updated Navbar and Cursor)
 	max-height: 350px;
 	display: flex;
 	flex-wrap: wrap;
