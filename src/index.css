@@ -1365,4 +1365,54 @@ body {
 	padding: 16px 0px;
 }
 
+<<<<<<< HEAD
 /* heading */
+=======
+/* video background */
+
+.bgvid {
+	position: fixed;
+	right: -32%;
+	bottom: -24%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	margin: auto;
+	z-index: -100;
+}
+
+.svid {
+	width: 100vh;
+	height: 100vh;
+	object-fit: cover;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
+/* about taqneeq */
+.main-tq{
+	width:100%;
+	height: 100vh;
+}
+.main-tq video{
+	width: 100%;
+	height: 100%;
+    object-fit: cover;
+}
+.Content-main-tq{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color:white;
+}
+  
+>>>>>>> 1eb4c21 (Added Video in AboutTq Page)
