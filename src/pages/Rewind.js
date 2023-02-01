@@ -1,12 +1,18 @@
 import React from 'react'
+import videobg from '../assets/svid.mp4'
 
 function Rewind()
 {
     return (
         <>
-        <div className='' style={{ height: '100vh' }}>
+
+        <div className="bgvideolg">
+                <video src={videobg} autoPlay loop muted />
+        </div>
+
+        <div className='' style={{ height: '100vh'}}>
             <div className="d-flex justify-content-center align-items-center h-100" >
-                <div className="container text-center">
+                <div className="rewindpage container text-center">
                     <div className="video-responsive">
                         <iframe
                             width="853"

@@ -7,7 +7,6 @@ const Timeline = () =>
 
             <div className="sch">
                 <video src={videobg} autoPlay loop muted />
-                <div className='overlay'></div>
             </div>
 
 

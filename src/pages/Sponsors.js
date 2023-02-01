@@ -59,6 +59,14 @@ export default function Head()
                 <video src={videobg} autoPlay loop muted />
             </div>
 
+            
+
+
+            <div className='sponsorspage'>
+
+            <div className="col my-auto text-center">
+                <h2 className="text-white display-4 text-center fw-bold">SPONSORS</h2>
+            </div>
 
             <div className="position-absolute text-white d-flex flex-column justify-content-md-center" style={{ top: 0, right: 0, bottom: 0, left: 0 }}>
                 <div className="container-md px-5 mt-20">
@@ -106,6 +114,7 @@ export default function Head()
                     </section>
                 </div>
             </div>
+        </div>
         </>
     )
 }

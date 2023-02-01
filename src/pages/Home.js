@@ -21,7 +21,7 @@ function Home()
                 </video>
             </div>
             <div>
-                <div className="position-absolute text-white d-flex flex-column justify-content-md-center" style={{ top: 0, right: 0, bottom: 0, left: 0, backgroundColor: 'rgba(0,0,0,.7)' }}>
+                <div className="position-absolute text-white d-flex flex-column justify-content-md-center" style={{ top: 0, right: 0, bottom: 0, left: 0,}}>
                     <div className="container px-5 mt-20-mobile">
                         <div className="row h-100">
                             <div className="col-7 my-auto">

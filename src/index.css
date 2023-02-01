@@ -476,6 +476,10 @@ code {
 
 /* Sponsor CSS */
 
+.sponsorspage {
+	overflow-y: hidden;
+}
+
 .sponsor img {
 	object-fit: contain;
 	width: 100%;
@@ -1273,7 +1277,7 @@ body {
 .bgvid {
 	position: fixed;
 	right: -32%;
-	bottom: -24%;
+	bottom: -16%;
 	min-width: 100%;
 	min-height: 100%;
 	width: auto;
@@ -1327,4 +1331,9 @@ body {
 	height: auto;
 	margin: auto;
 	z-index: -100;
+}
+
+.rewindpage {
+	margin-top: 250px;
+	padding-bottom: 100px;
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import videobg from '../assets/svid.mp4'
 
 
 export default function Workshop()
@@ -28,6 +29,11 @@ export default function Workshop()
         <>
             <div>
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" />
+
+
+            <div className="bgvideolg">
+                    <video src={videobg} autoPlay loop muted />
+                </div>
 
             <div className="mt-10">
                 <h1 className='text-white text-center display-3 fw-bold ml-5'>
