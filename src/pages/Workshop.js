@@ -99,7 +99,7 @@ export default function Workshop()
                     <h2>Motorsport</h2>
                     <i className="fas fa-arrow-right" />
                     <p>Click here to register!</p>
-                    <div className="pic" />
+                    <div className="pic pic2" />
                     <ul>
                         <li />
                         <li />
@@ -140,10 +140,10 @@ export default function Workshop()
                         <li />
                     </ul>
                     <div className="social">
-                        <i className="fab fa-facebook-f" />
-                        <i className="fab fa-twitter" />
-                        <i className="fab fa-instagram" />
-                        <i className="fab fa-github" />
+                        <i>
+                            12/1/2023
+                        </i>
+
                     </div>
                     <button onClick={motorsport}></button>
                 </div>
@@ -152,7 +152,7 @@ export default function Workshop()
                     <h2>AR/VR</h2>
                     <i className="fas fa-arrow-right" />
                     <p>Click here to register!</p>
-                    <div className="pic" />
+                    <div className="pic pic3" />
                     <ul>
                         <li />
                         <li />
@@ -205,7 +205,7 @@ export default function Workshop()
                     <h2>Game Dev</h2>
                     <i className="fas fa-arrow-right" />
                     <p>Click here to register!</p>
-                    <div className="pic" />
+                    <div className="pic pic4" />
                     <ul>
                         <li />
                         <li />

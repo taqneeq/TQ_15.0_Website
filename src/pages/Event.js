@@ -1,83 +1,66 @@
 import React from 'react'
+import videobg from "../assets/svid.mp4"
 
 export default function Event()
 {
     return (
         <>
-  
 
-            <div className="position-absolute text-white d-flex flex-column justify-content-md-center" style={{ top: 0, right: 0, bottom: 0, left: 0 }}>
-                <div className="container mt-25">
-                    <div class="hero-section">
-                        <div class="card-grid">
-                            <a class="card_event" href="">
-                                <div class="card__background"></div>
-                                <div class="card__content">
-                                    <p class="card__category">5th <br />February</p>
-                                    <h3 class="card__heading">Pinewood Derby</h3>
-                                </div>
-                            </a>
-                            <a class="card_event" href="#">
-                                <div class="card__background"></div>
-                                <div class="card__content">
-                                    <p class="card__category">5th <br />February</p>
-                                    <h3 class="card__heading">Maze Solver</h3>
-                                </div>
-                            </a>
-                            <a class="card_event" href="#">
-                                <div class="card__background"></div>
-                                <div class="card__content">
-                                    <p class="card__category">5th <br />February</p>
-                                    <h3 class="card__heading">Smart Football</h3>
-                                </div>
-                            </a>
-                            <a class="card_event" href="#">
-                                <div class="card__background"></div>
-                                <div class="card__content">
-                                    <p class="card__category">6th <br />February</p>
-                                    <h3 class="card__heading">Mission Impossible</h3>
-                                </div>
-                            </a>
-                            <a class="card_event" href="#">
-                                <div class="card__background"></div>
-                                <div class="card__content">
-                                    <p class="card__category">6th <br />February</p>
-                                    <h3 class="card__heading">Piano Tiles</h3>
-                                </div>
-                            </a>
-                            <a class="card_event" href="#">
-                                <div class="card__background"></div>
-                                <div class="card__content">
-                                    <p class="card__category">6th <br />February</p>
-                                    <h3 class="card__heading">Earthquake Proof</h3>
-                                </div>
-                            </a>
-                        </div>
+            <div className="bgvideolg">
+                <video src={videobg} autoPlay loop muted />
+            </div>  
 
-                    </div>
-                </div>
-            </div>
+            <h1 className="text-white text-center display-5 mt-12">EVENTS</h1>
 
-
-            <div class="modal fade" id="schedule1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <img class="card-img-top" src="https://images.unsplash.com/photo-1675141194800-ae6f2f729ed9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="Card image cap"></img>
-                        </div>
-                        <div class="modal-body">
-                            <h1 className='modal-texts'>lorem</h1>
-                            <p className='modal-texts' >lorem</p>
-
-                        </div>
-                        <div class="modal-footer">
-                            <a type="button" class="btn btn-primary" href="#">Register</a>
-                            <button type="button" class="btn btn-secondary" data-dismiss="schedule1">Close</button>
+            <div className='eventpage'>
+                <main class="epage-content">
+                    <div class="ecard">
+                        <div class="econtent">
+                        <h2 class="etitle">Pinewood Derby</h2>
+                        <p class="ecopy">Participants build and race a soapbox car, applying basic physics and mechanical principals</p>
+                        <button class="ebtn">Register</button>
                         </div>
                     </div>
-                </div>
-            </div>
-        </>
+                    <div class="ecard">
+                        <div class="econtent">
+                        <h2 class="etitle">Maze Solver</h2>
+                        <p class="ecopy">Line tracing cars coded by players have to make their way through a maze. The bot that solves the maze the fastest wins</p>
+                        <button class="ebtn">Register</button>
+                        </div>
+                    </div>
+                    <div class="ecard">
+                        <div class="econtent">
+                        <h2 class="etitle">Smart Football</h2>
+                        <p class="ecopy">Participants try to shoot a goal against a robot goalkeeper at the goal post</p>
+                        <button class="ebtn">Register</button>
+                        </div>
+                    </div>
+                    <div class="ecard">
+                        <div class="econtent">
+                        <h2 class="etitle">Mission Impossible</h2>
+                        <p class="ecopy">Participants dodge the laser beams and cross the three levels, each harder than the previous one</p>
+                        <button class="ebtn">Register</button>
+                        </div>
+                    </div>
 
+                    <div class="ecard">
+                        <div class="econtent">
+                        <h2 class="etitle">Piano Tiles </h2>
+                        <p class="ecopy">Players walk on tiles creating the notes of piano as they walk</p>
+                        <button class="ebtn">Register</button>
+                        </div>
+                    </div>
+                    <div class="ecard">
+                        <div class="econtent">
+                        <h2 class="etitle">Earthquake Proof</h2>
+                        <p class="ecopy">Participants have to build an earthquake-proof building using sticks, straws and other materials given which can last the longest in the earthquake simulator.</p>
+                        <button class="ebtn">Register</button>
+                        </div>
+                    </div>
+
+                    
+                </main>
+            </div>
+            </>
     )
 }

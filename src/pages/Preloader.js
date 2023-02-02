@@ -34,7 +34,7 @@ class Preloader extends Component
                 <div className="loading-page-text-wrap">
                     <div className="loading-page-text">TAQNEEQ 15.0</div>
                 </div>
-                {/* <style>
+                <style>
                     {`
           @import url('https://fonts.cdnfonts.com/css/mortend');
           
@@ -80,7 +80,7 @@ class Preloader extends Component
             .loading-page-text span {
               display: inline-block;
             }`}
-                </style> */}
+                </style>
             </div>
         );
     }

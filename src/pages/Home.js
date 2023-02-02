@@ -3,10 +3,11 @@ import tqbg from "../assets/2.jpg"
 import { useNavigate } from "react-router-dom";
 import eventIcon from "../assets/event.png"
 import svid from "../assets/bgvi.mp4"
-
+import Preloader from "./Preloader";
 
 function Home()
 {
+    
     let navigate = useNavigate();
     const routeChange = () =>
     {
@@ -46,7 +47,6 @@ function Home()
                     </div>
                 </div>
             </div>
-
         </>
     );
 }
