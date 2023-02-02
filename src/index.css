@@ -1,6 +1,6 @@
 html {
-	scroll-behavior: smooth;
 	overflow-x: hidden;
+	scroll-behavior: smooth;
 }
 
 @font-face {
@@ -70,11 +70,49 @@ code {
 
 @import url("https://fonts.cdnfonts.com/css/mortend");
 
-
-.navbar{
-  top:0;
-  z-index: 1000;
+/* .loading-page.loaded {
+	display: none;
 }
+.loading-page {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	font-family: "Mortend", sans-serif !important;
+}
+.loading-page-grey,
+.loading-page-white {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.loading-page-grey {
+	z-index: 2;
+	background-color: #000000;
+}
+.loading-page-white {
+	z-index: 1;
+	background-color: white;
+}
+.loading-page-text-wrap {
+	overflow: hidden;
+}
+.loading-page-text-wrap {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 70px;
+	z-index: 3;
+}
+.loading-page-text span {
+	display: inline-block;
+} */
 
 .fw-bold {
 	font-family: GilroyBold !important;
@@ -82,18 +120,8 @@ code {
 
 .transparent-white {
 	background-color: transparent !important;
-}
-
-.mt-6 {
-	margin-top: 6rem;
-}
-
-.mt-10 {
-	margin-top: 10rem;
-}
-
-.display-3 {
-	font-size: 65px !important;
+	/* backdrop-filter: blur(13px);
+    -webkit-backdrop-filter: blur(13px); */
 }
 
 .sticky {
@@ -107,45 +135,6 @@ code {
 		0 0px 0px 0px rgba(0, 0, 0, 0.1) !important;
 }
 
-.p-navbar {
-	padding: 2rem 5rem 0rem 7rem !important;
-}
-
-.mt-12 {
-	margin-top: 12rem;
-}
-
-.mt-20 {
-	margin-top: 24rem;
-}
-
-.mt-25 {
-	margin-top: 35rem;
-}
-
-
-@media (max-width: 600px) {
-	.mt-10 {
-		margin-top: 6.7rem;
-	}
-
-	.mt-12 {
-		margin-top: 12rem;
-	}
-
-    .mt-20, .mt-20-mobile {
-        margin-top: 8rem;
-    }
-
-    .mt-25 {
-        margin-top: 5rem;
-    }
-
-	.p-navbar {
-		padding: 1.7rem 1.5rem 0rem 1.5rem !important;
-	}
-}
-
 .showcase {
 	background: var(--primary-color);
 	color: #fff;
@@ -155,8 +144,7 @@ code {
 
 .showcase:before {
 	content: "";
-	background: url("https://images.pexels.com/photos/533923/pexels-photo-533923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
-		no-repeat center center/cover;
+	background: url("https://images.pexels.com/photos/533923/pexels-photo-533923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat center center/cover;
 	position: absolute;
 	top: 0;
 	left: 100;
@@ -416,6 +404,18 @@ code {
 	animation-delay: 1.4s;
 }
 
+.mt-6 {
+	margin-top: 6rem;
+}
+
+.mt-10 {
+	margin-top: 10rem;
+}
+
+.display-3 {
+	font-size: 65px !important;
+}
+
 .hero-hr {
 	height: 2px !important;
 	background: white;
@@ -480,14 +480,6 @@ code {
 
 /* Sponsor CSS */
 
-.sponsortext {
-	margin-top: 120px;
-}
-
-.sponsorspage {
-	overflow-y: hidden;
-}
-
 .sponsor img {
 	object-fit: contain;
 	width: 100%;
@@ -505,11 +497,11 @@ code {
 	background-color: #7b00ff;
 	padding: 15px;
 	width: 100%;
-	box-shadow: 0 0 15px rgba(255, 0, 230, 0.258);
+	/* box-shadow: 0 0 15px rgba(255, 0, 230, 0.258); */
 	overflow-x: hidden;
 }
 
-.container-lg {
+.container-lg{
 	padding-bottom: 30px;
 	margin-bottom: 30px;
 }
@@ -528,7 +520,16 @@ code {
 	left: 0px;
 	right: 0px;
 }
-
+.about-tq-text{
+	max-width: 900px;
+	
+}
+.heynigga{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 .parentContainer {
 	display: flex;
 	align-items: center;
