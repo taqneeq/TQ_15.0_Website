@@ -1,13 +1,14 @@
 import React from "react";
 import logo1 from "../assets/img1.png"
 import tqbg from "../assets/bg4.jpg"
-import videobg from '../assets/svid2.mp4'
+import videobg from '../assets/svid.mp4'
 const About = () =>
 {
     return (
         <>
                 <div className="bgvideolg">
                     <video src={videobg} autoPlay loop muted />
+                    <div className="overlay"></div>
                 </div>
 
                 {/* <div className="overlay"></div> */}

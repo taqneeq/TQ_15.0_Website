@@ -40,7 +40,7 @@ export default function Workshop()
                     WORKSHOPS
                 </h1>
             </div>
-            <div className="wcontainer mt-5">
+            <div className="wcontainer mt-6">
                 <div className="wcard">
                     <h2>Drone Building</h2>
                     <i className="fas fa-arrow-right" />

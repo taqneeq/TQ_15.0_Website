@@ -4,15 +4,17 @@ export default function Event()
 {
     return (
         <>
+  
+
             <div className="position-absolute text-white d-flex flex-column justify-content-md-center" style={{ top: 0, right: 0, bottom: 0, left: 0 }}>
                 <div className="container mt-25">
                     <div class="hero-section">
                         <div class="card-grid">
-                            <a class="card_event" href="modal">
+                            <a class="card_event" href="">
                                 <div class="card__background"></div>
                                 <div class="card__content">
                                     <p class="card__category">5th <br />February</p>
-                                    <h3 class="card__heading">PINEWOOD DERBY</h3>
+                                    <h3 class="card__heading">Pinewood Derby</h3>
                                 </div>
                             </a>
                             <a class="card_event" href="#">

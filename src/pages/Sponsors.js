@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useEffect } from 'react';
 import Aos from 'aos';
 import "aos/dist/aos.css";
-import videobg from '../assets/svid2.mp4'
+import videobg from '../assets/svid.mp4'
 
 
 export default function Head()
@@ -57,19 +57,20 @@ export default function Head()
         <>
             <div className="bgvideolg">
                 <video src={videobg} autoPlay loop muted />
+                <div className='overlay'></div>
             </div>
 
-            
 
-
-            <div className='sponsorspage'>
-
-            <div className="col my-auto text-center">
+            <div className="sponsortext mt-6">
                 <h2 className="text-white display-4 text-center fw-bold">SPONSORS</h2>
             </div>
 
+            <div className='sponsorspage'>
+
+          
+
             <div className="position-absolute text-white d-flex flex-column justify-content-md-center" style={{ top: 0, right: 0, bottom: 0, left: 0 }}>
-                <div className="container-md px-5 mt-20">
+                <div className="container-md px-5 mt-12">
                     <section class="gallery min-vh-100" id="hide_sponsor">
                         <div class="container-lg" data-aos="fade-up">
                             <div class="sponsor row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3" data-aos="fade-up">
@@ -99,15 +100,6 @@ export default function Head()
                                 </div>
                                 <div class="col" data-aos="fade-up">
                                     <img data-aos="fade-up" data-aos-delay="1300" src="https://1minus1-2021.s3.eu-west-2.amazonaws.com/lightspeed_logo_new_a2fce9d216.png" class="gallery-item" alt="gallery" />
-                                </div>
-                                <div class="col" data-aos="fade-up">
-                                    <img data-aos="fade-up" data-aos-delay="1400" src="https://1minus1-2021.s3.eu-west-2.amazonaws.com/lightspeed_logo_new_a2fce9d216.png" class="gallery-item" alt="gallery" />
-                                </div>
-                                <div class="col" data-aos="fade-up">
-                                    <img data-aos="fade-up" data-aos-delay="1500" src="https://1minus1-2021.s3.eu-west-2.amazonaws.com/lightspeed_logo_new_a2fce9d216.png" class="gallery-item" alt="gallery" />
-                                </div>
-                                <div class="col" data-aos="fade-up">
-                                    <img data-aos="fade-up" data-aos-delay="1600" src="https://1minus1-2021.s3.eu-west-2.amazonaws.com/lightspeed_logo_new_a2fce9d216.png" class="gallery-item" alt="gallery" />
                                 </div>
                             </div>
                         </div>

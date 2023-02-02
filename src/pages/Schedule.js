@@ -7,6 +7,7 @@ const Timeline = () =>
 
             <div className="sch">
                 <video src={videobg} autoPlay loop muted />
+                <div className='overlay'></div>
             </div>
 
 
@@ -15,10 +16,10 @@ const Timeline = () =>
                     <div className="container px-5 mt-20">
                         <div className="row">
                             <div className="col my-auto text-center">
-                                <h2 className="text-white display-4 text-center fw-bold">SCHEDULE</h2>
+                                <h2 className="text-white display-4 text-center fw-bold schedulepageheader">SCHEDULE</h2>
                             </div>
                             <div className="timeline">
-                                <div data-bs-toggle="modal" data-bs-target="#schedule1" className="timeline__event   ">
+                                <div data-bs-toggle="modal" data-bs-target="#schedule1" className="timeline__event">
                                     <div className="timeline__event__icon ">
                                         <i className="lni-cake"></i>
 
@@ -35,6 +36,8 @@ const Timeline = () =>
                                         </div>
                                     </div>
                                 </div>
+
+
                                 <div data-bs-toggle="modal" data-bs-target="#schedule1" className="timeline__event   ">
                                     <div className="timeline__event__icon ">
                                         <i className="lni-cake"></i>
@@ -127,11 +130,6 @@ const Timeline = () =>
                     </div>
                 </div>
             </div>
-
-
-
-
-
 
 
 
