@@ -1,5 +1,5 @@
 import React from 'react'
-import videobg from '../assets/svid.mp4'
+import videobg from '../assets/svid2.mp4'
 
 
 export default function Workshop()
@@ -7,22 +7,22 @@ export default function Workshop()
 
     const drone = () =>
     {
-        window.open("https://www.example.com", "_blank");
+        window.open("https://ugf11b5z0iy.typeform.com/to/m5XyietS", "_blank");
     };
 
     const motorsport = () =>
     {
-        window.open("https://www.example.com", "_blank");
+        window.open("https://ugf11b5z0iy.typeform.com/to/a7eYqxQJ", "_blank");
     };
 
     const arvr = () =>
     {
-        window.open("https://www.example.com", "_blank");
+        window.open("https://ugf11b5z0iy.typeform.com/to/XZiyRPMX", "_blank");
     };
 
     const gamedev = () =>
     {
-        window.open("https://www.example.com", "_blank");
+        window.open("https://ugf11b5z0iy.typeform.com/to/XZiyRPMX", "_blank");
     };
 
     return (
