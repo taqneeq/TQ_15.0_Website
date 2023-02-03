@@ -1,5 +1,5 @@
 import React from 'react'
-import videobg from '../assets/svid.mp4'
+import videobg from '../assets/svid2.mp4'
 
 function Rewind()
 {

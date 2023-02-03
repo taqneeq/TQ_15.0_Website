@@ -572,6 +572,10 @@ code {
 	margin-bottom: 50px;
 }
 
+.collabpageheader {
+	margin-bottom: 100px;
+}
+
 .sch {
 	position: fixed;
 	bottom: -24%;
@@ -1536,8 +1540,8 @@ body {
 		 transform: translateY(calc(100% - 4.5rem));
 	}
 	 .econtent > *:not(.title) {
-		 opacity: 0;
-		 transform: translateY(1rem);
+		 opacity: 100;
+		 transform: translateY(1.3rem);
 		 transition: transform var(--d) var(--e), opacity var(--d) var(--e);
 	}
 	 .ecard:hover, .ecard:focus-within {
@@ -1561,6 +1565,7 @@ body {
 		 transition-duration: 0s;
 	}
 }
+
  /* collab scenes */
  .container-collab {
 	margin: auto;

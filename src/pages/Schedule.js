@@ -16,7 +16,7 @@ const Timeline = () =>
                     <div className="container px-5 mt-20">
                         <div className="row">
                             <div className="col my-auto text-center">
-                                <h2 className="text-white display-4 text-center fw-bold schedulepageheader">SCHEDULE</h2>
+                                <h2 className="text-white display-2 text-center fw-bold schedulepageheader">SCHEDULE</h2>
                             </div>
                             <div className="timeline">
                                 <div data-bs-toggle="modal" data-bs-target="#schedule1" className="timeline__event">

@@ -36,7 +36,7 @@ export default function Workshop()
                 </div>
 
             <div className="mt-10">
-                <h1 className='text-white text-center display-3 fw-bold ml-5'>
+                <h1 className='text-white text-center display-2 fw-bold ml-5'>
                     WORKSHOPS
                 </h1>
             </div>

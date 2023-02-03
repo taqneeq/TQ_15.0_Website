@@ -66,9 +66,7 @@ export default function Head()
             </div>
 
             <div className='sponsorspage'>
-
-          
-
+                
             <div className="position-absolute text-white d-flex flex-column justify-content-md-center" style={{ top: 0, right: 0, bottom: 0, left: 0 }}>
                 <div className="container-md px-5 mt-12">
                     <section class="gallery min-vh-100" id="hide_sponsor">

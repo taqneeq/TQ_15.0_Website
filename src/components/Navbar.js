@@ -1,5 +1,5 @@
 import React from 'react'
-import tqlogo from "../assets/tqlogo.png"
+import tqlogo from "../assets/tqlogo3.png"
 import "aos/dist/aos.css";
 
 
@@ -17,14 +17,15 @@ export default function Navbar()
                         <div>
                             <div>
                                 <ul>
+                                    <li><a className='fw-bold' href="/">Home</a></li>
                                     <li><a className='fw-bold' href="abouttq">About TQ</a></li>
-                                    {/* <li><a className='fw-bold' href="schedule">Schedule</a></li> */}
+                                    <li><a className='fw-bold' href="schedule">Schedule</a></li>
                                     <li><a className='fw-bold' href="workshops">Workshops</a></li>
-                                    {/* <li><a className='fw-bold' href="events">Events</a></li> */}
+                                    <li><a className='fw-bold' href="events">Events</a></li>
                                     <li><a className='fw-bold' href="collab">Collaborations</a></li>
-                                    {/* <li><a className='fw-bold' href="sponsors">Sponsors</a></li> */}
+                                    <li><a className='fw-bold' href="sponsors">Sponsors</a></li>
                                     <li><a className='fw-bold' href="rewind">Rewind</a></li>
-                                    {/* <li><a className='fw-bold' href="contactus">Contact</a></li> */}
+                                    <li><a className='fw-bold' href="contactus">Contact</a></li>
                                 </ul>
                             </div>
                         </div>

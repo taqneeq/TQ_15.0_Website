@@ -1,5 +1,5 @@
 import React from 'react'
-import videobg from "../assets/svid.mp4"
+import videobg from "../assets/svid2.mp4"
 
 export default function Event()
 {
@@ -10,7 +10,7 @@ export default function Event()
                 <video src={videobg} autoPlay loop muted />
             </div>  
 
-            <h1 className="text-white text-center display-5 mt-12">EVENTS</h1>
+            <h1 className="text-white text-center display-1 mt-10">EVENTS</h1>
 
             <div className='eventpage'>
                 <main class="epage-content">

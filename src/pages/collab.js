@@ -10,13 +10,9 @@ export default function Collab()
             </div>
 
 <div class="container-collab">
-<h2 className="text-white display-4 text-center fw-bold schedulepageheader">COLLAB</h2>
+<h2 className="mt-6 text-white display-2 text-center fw-bold collabpageheader">COLLAB</h2>
 
 <div class="row-collab">
-
-
-
-  
   <div class="final-1 card-collab">
     <div class="wrapper-collab">
       <div class="date-collab">
