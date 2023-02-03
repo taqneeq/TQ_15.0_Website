@@ -1695,3 +1695,215 @@ h1 {
 	font-size: 24px;
 }
 
+/* card 1 collab scenes */
+.final-1 .wrapper-collab {
+	background: url('./assets/Cadathon.jpg') 30% 1% / cover no-repeat;
+}
+.final-1 .date-collab {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #333;
+	color: #fff;
+	padding: 0.75rem;
+}
+.final-1 .date-collab span {
+	display: block;
+	text-align: center;
+}
+.final-1 .date-collab .day-collab {
+	font-weight: 700;
+	font-size: 3rem;
+	text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.18);
+}
+.final-1 .date-collab .month-collab {
+	text-transform: uppercase;
+}
+.final-1 .date-collab .month-collab, .final-1 .date-collab .year-collab {
+	font-size: 10px;
+}
+.final-1 .content-text {
+	background-color: #333;
+	color: white;
+	box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.3);
+}
+.final-1 .title-collab a {
+	color: white;
+	text-decoration: none;
+}
+.final-1 .menu-content-collab {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0%;
+}
+.final-1 .menu-content-collab li {
+	text-align: center;
+	width: 3rem;
+	background-color: #333;
+	height: 3rem;
+	position: relative;
+}
+.final-1 .menu-content-collab a {
+	font-size: 24px;
+}
+
+/* card 2 collab scenes */
+.final-2 .wrapper-collab {
+	background: url('./assets/quiz.jpg') 30% 1% / cover no-repeat;
+}
+.final-2 .date-collab {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #333;
+	color: #fff;
+	padding: 0.75rem;
+}
+.final-2 .date-collab span {
+	display: block;
+	text-align: center;
+}
+.final-2 .date-collab .day-collab {
+	font-weight: 700;
+	font-size: 3rem;
+	text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.18);
+}
+.final-2 .date-collab .month-collab {
+	text-transform: uppercase;
+}
+.final-2 .date-collab .month-collab, .final-2 .date-collab .year-collab {
+	font-size: 10px;
+}
+.final-2 .content-text {
+	background-color: #333;
+	color: white;
+	box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.3);
+}
+.final-2 .title-collab a {
+	color: white;
+	text-decoration: none;
+}
+.final-2 .menu-content-collab {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0%;
+}
+.final-2 .menu-content-collab li {
+	text-align: center;
+	width: 3rem;
+	background-color: #333;
+	height: 3rem;
+	position: relative;
+}
+.final-2 .menu-content-collab a {
+	font-size: 24px;
+}
+
+
+/* card 3 collab scenes */
+.final-3 .wrapper-collab {
+	background: url('./assets/debate.jpg') 30% 1% / cover no-repeat;
+}
+.final-3 .date-collab {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #333;
+	color: #fff;
+	padding: 0.75rem;
+}
+.final-3 .date-collab span {
+	display: block;
+	text-align: center;
+}
+.final-3 .date-collab .day-collab {
+	font-weight: 700;
+	font-size: 3rem;
+	text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.18);
+}
+.final-3 .date-collab .month-collab {
+	text-transform: uppercase;
+}
+.final-3 .date-collab .month-collab, .final-3 .date-collab .year-collab {
+	font-size: 10px;
+}
+.final-3 .content-text {
+	background-color: #333;
+	color: white;
+	box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.3);
+}
+.final-3 .title-collab a {
+	color: white;
+	text-decoration: none;
+}
+.final-3 .menu-content-collab {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0%;
+}
+.final-3 .menu-content-collab li {
+	text-align: center;
+	width: 3rem;
+	background-color: #333;
+	height: 3rem;
+	position: relative;
+}
+.final-3 .menu-content-collab a {
+	font-size: 24px;
+}
+
+/* card 4 collab scenes */
+.final-4 .wrapper-collab {
+	background: url('./assets/forging.jpg') 30% 1% / cover no-repeat;
+}
+.final-4 .date-collab {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #333;
+	color: #fff;
+	padding: 0.75rem;
+}
+.final-4 .date-collab span {
+	display: block;
+	text-align: center;
+}
+.final-4 .date-collab .day-collab {
+	font-weight: 700;
+	font-size: 3rem;
+	text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.18);
+}
+.final-4 .date-collab .month-collab {
+	text-transform: uppercase;
+}
+.final-4 .date-collab .month-collab, .final-4 .date-collab .year-collab {
+	font-size: 10px;
+}
+.final-4 .content-text {
+	background-color: #333;
+	color: white;
+	box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.3);
+}
+.final-4 .title-collab a {
+	color: white;
+	text-decoration: none;
+}
+.final-4 .menu-content-collab {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0%;
+}
+.final-4 .menu-content-collab li {
+	text-align: center;
+	width: 3rem;
+	background-color: #333;
+	height: 3rem;
+	position: relative;
+}
+.final-4 .menu-content-collab a {
+	font-size: 24px;
+}
