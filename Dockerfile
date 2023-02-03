@@ -15,8 +15,5 @@ RUN npm run build
 ENV NODE_ENV production
 # Expose the port on which the app will be running (3000 is the default that `serve` uses)
 EXPOSE 3000
-# Start the app
-# New logic at line 19
-RUN npm run build 
-# CMD [ "npm", "start" ]
-CMD [ "serve", "-s build" ]
+# Start the app (development build)
+CMD [ "npm", "start" ]
