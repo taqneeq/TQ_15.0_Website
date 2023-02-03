@@ -1573,18 +1573,29 @@ a {
 }
 h1 {
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
+	font-weight: 200;
 }
 .row-collab {
 	 margin: auto 0;
-     padding-left: 50px;
-	 padding-top: 100px;
-   
+     display:flex;
+	 justify-content: center;   
+	 align-items: center;
+	 flex-wrap: wrap;
 }
+
+@media (max-width: 400px) { 
+	.row-collab{
+		padding-left: 40px;
+	}
+    .card-collab{
+		max-width: 200px;
+	}
+ }
+	
 .card-collab {
 	float: left;
 	padding: 1rem;
-	min-width: 500px;
+	min-width: 400px;
 }
 .card-collab .menu-content-collab {
 	margin: 0;
@@ -1643,57 +1654,7 @@ h1 {
 	transform: translateY(-60px);
 }
 
-.final .wrapper-collab {
-	background: url(https://images.unsplash.com/photo-1547405358-4ef2671bb1bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80) 30% 1% / cover no-repeat;
-}
-.final .date-collab {
-	position: absolute;
-	top: 0;
-	right: 0;
-	background-color: #333;
-	color: #fff;
-	padding: 0.75rem;
-}
-.final .date-collab span {
-	display: block;
-	text-align: center;
-}
-.final .date-collab .day-collab {
-	font-weight: 700;
-	font-size: 3rem;
-	text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.18);
-}
-.final .date-collab .month-collab {
-	text-transform: uppercase;
-}
-.final .date-collab .month-collab, .final .date-collab .year-collab {
-	font-size: 10px;
-}
-.final .content-text {
-	background-color: #333;
-	color: white;
-	box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.3);
-}
-.final .title-collab a {
-	color: white;
-	text-decoration: none;
-}
-.final .menu-content-collab {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 0%;
-}
-.final .menu-content-collab li {
-	text-align: center;
-	width: 3rem;
-	background-color: #333;
-	height: 3rem;
-	position: relative;
-}
-.final .menu-content-collab a {
-	font-size: 24px;
-}
+
 
 /* card 1 collab scenes */
 .final-1 .wrapper-collab {
@@ -1713,7 +1674,7 @@ h1 {
 }
 .final-1 .date-collab .day-collab {
 	font-weight: 700;
-	font-size: 3rem;
+	font-size: 2rem;
 	text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.18);
 }
 .final-1 .date-collab .month-collab {
@@ -1745,7 +1706,7 @@ h1 {
 	position: relative;
 }
 .final-1 .menu-content-collab a {
-	font-size: 24px;
+	font-size: 10px;
 }
 
 /* card 2 collab scenes */
@@ -1766,7 +1727,7 @@ h1 {
 }
 .final-2 .date-collab .day-collab {
 	font-weight: 700;
-	font-size: 3rem;
+	font-size: 2rem;
 	text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.18);
 }
 .final-2 .date-collab .month-collab {
@@ -1820,7 +1781,7 @@ h1 {
 }
 .final-3 .date-collab .day-collab {
 	font-weight: 700;
-	font-size: 3rem;
+	font-size: 2rem;
 	text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.18);
 }
 .final-3 .date-collab .month-collab {
@@ -1852,7 +1813,7 @@ h1 {
 	position: relative;
 }
 .final-3 .menu-content-collab a {
-	font-size: 24px;
+	font-size: 1px;
 }
 
 /* card 4 collab scenes */
@@ -1873,7 +1834,7 @@ h1 {
 }
 .final-4 .date-collab .day-collab {
 	font-weight: 700;
-	font-size: 3rem;
+	font-size: 2rem;
 	text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.18);
 }
 .final-4 .date-collab .month-collab {
