@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5c2b5867.css",
+    "main.js": "/static/js/main.656e7bc5.js",
+    "static/js/787.0e8d8fc0.chunk.js": "/static/js/787.0e8d8fc0.chunk.js",
+    "static/media/bgvi.mp4": "/static/media/bgvi.82de8dd44b4cc7f1c00f.mp4",
+    "static/media/svid.mp4": "/static/media/svid.02831c8fef2409d6ec4f.mp4",
+    "static/media/debate.jpg": "/static/media/debate.58a5279d87aaad927248.jpg",
+    "static/media/svid2.mp4": "/static/media/svid2.4c1d8cc2fb0c59e08a87.mp4",
+    "static/media/Cadathon.jpg": "/static/media/Cadathon.f8a90cb4c4a3f7a13021.jpg",
+    "static/media/quiz.jpg": "/static/media/quiz.56b02b8858c3029a9520.jpg",
+    "static/media/2.jpg": "/static/media/2.fde70cdc6c539f209488.jpg",
+    "static/media/forging.jpg": "/static/media/forging.8adfa8188f480bd8f367.jpg",
+    "static/media/img1.png": "/static/media/img1.df342c3e78bec7a43adf.png",
+    "static/media/Gilroy-RegularItalic.ttf": "/static/media/Gilroy-RegularItalic.aada5f763052a8db57fe.ttf",
+    "static/media/tqlogo3.png": "/static/media/tqlogo3.dda1f798198ea1706a0d.png",
+    "static/media/Gilroy-Light.ttf": "/static/media/Gilroy-Light.1822a291dd62fe2cca72.ttf",
+    "static/media/Gilroy-Regular.ttf": "/static/media/Gilroy-Regular.5b89a8df3b17dccdb73f.ttf",
+    "static/media/Gilroy-Medium.ttf": "/static/media/Gilroy-Medium.1b4da6582f83f45ea039.ttf",
+    "static/media/Gilroy-Bold.ttf": "/static/media/Gilroy-Bold.ca49f7658c4eaac78b6d.ttf",
+    "static/media/Gilroy-Heavy.ttf": "/static/media/Gilroy-Heavy.41ca3e2d8c1dc7d3cde9.ttf",
+    "static/media/arvr.jpg": "/static/media/arvr.9d4e7609a3493c180848.jpg",
+    "static/media/nmims.jpg": "/static/media/nmims.326f84409735e92d7b6b.jpg",
+    "static/media/f1jamie.png": "/static/media/f1jamie.5d319b42de2f2c68f092.png",
+    "static/media/gamedev1.jpg": "/static/media/gamedev1.7eaba8f69bf1cbd0246f.jpg",
+    "static/media/drone.jpg": "/static/media/drone.0a2d886054cefe0c2639.jpg",
+    "static/media/bg2.jpg": "/static/media/bg2.3e006ee0d59f87e85ee0.jpg",
+    "index.html": "/index.html",
+    "static/media/play-button.svg": "/static/media/play-button.df66294e485f38260fe12255966c3732.svg",
+    "main.5c2b5867.css.map": "/static/css/main.5c2b5867.css.map",
+    "main.656e7bc5.js.map": "/static/js/main.656e7bc5.js.map",
+    "787.0e8d8fc0.chunk.js.map": "/static/js/787.0e8d8fc0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c2b5867.css",
+    "static/js/main.656e7bc5.js"
+  ]
+}
