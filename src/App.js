@@ -11,6 +11,7 @@ import About from './pages/About';
 import Schedule from './pages/Schedule';
 import Workshop from './pages/Workshop';
 import Event from './pages/Event';
+import Collab from './pages/collab';
 
 function App()
 {
@@ -27,6 +28,8 @@ function App()
                     <Route exact path="schedule" element={<Schedule />} />
                     <Route exact path="workshops" element={<Workshop />} />
                     <Route exact path="events" element={<Event />} />
+                    <Route exact path="collab" element={<Collab/>} />
+
                 </Routes>
             </BrowserRouter>
         </>

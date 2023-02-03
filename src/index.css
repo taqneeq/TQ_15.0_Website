@@ -1561,4 +1561,137 @@ body {
 		 transition-duration: 0s;
 	}
 }
- 
+ /* collab scenes */
+ .container-collab {
+	margin: auto;
+	width: 100%;
+	padding: 3rem;
+	
+}
+a {
+	text-decoration: none;
+}
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+.row-collab {
+	 margin: auto 0;
+     padding-left: 50px;
+	 padding-top: 100px;
+   
+}
+.card-collab {
+	float: left;
+	padding: 1rem;
+	min-width: 500px;
+}
+.card-collab .menu-content-collab {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.card-collab .menu-content-collab::before, .card-collab .menu-content-collab::after {
+	content: '';
+	display: table;
+}
+.card-collab .menu-content-collab::after {
+	clear: both;
+}
+.card-collab .menu-content-collab li {
+	display: inline-block;
+}
+.card-collab .menu-content-collab a {
+	color: #fff;
+}
+.card-collab .wrapper-collab {
+	background-color: #fff;
+	min-height: 540px;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+}
+.card-collab .wrapper-collab:hover .data-collab {
+	transform: translateY(0);
+}
+.card-collab .data-collab {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	transform: translateY(calc(80px + 1em));
+	transition: transform 0.3s;
+}
+.card-collab .data-collab .content-text {
+	padding: 1.5em;
+	position: relative;
+	z-index: 1;
+}
+.card-collab .type-collab {
+	font-size: 12px;
+}
+.card-collab .title-collab {
+	margin-top: 10px;
+}
+.card-collab .text-collab {
+	height: 70px;
+	margin: 0;
+}
+.card-collab input[type='checkbox'] {
+	display: none;
+}
+.card-collab input[type='checkbox']:checked + .menu-content-collab {
+	transform: translateY(-60px);
+}
+
+.final .wrapper-collab {
+	background: url(https://images.unsplash.com/photo-1547405358-4ef2671bb1bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80) 30% 1% / cover no-repeat;
+}
+.final .date-collab {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #333;
+	color: #fff;
+	padding: 0.75rem;
+}
+.final .date-collab span {
+	display: block;
+	text-align: center;
+}
+.final .date-collab .day-collab {
+	font-weight: 700;
+	font-size: 3rem;
+	text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.18);
+}
+.final .date-collab .month-collab {
+	text-transform: uppercase;
+}
+.final .date-collab .month-collab, .final .date-collab .year-collab {
+	font-size: 10px;
+}
+.final .content-text {
+	background-color: #333;
+	color: white;
+	box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.3);
+}
+.final .title-collab a {
+	color: white;
+	text-decoration: none;
+}
+.final .menu-content-collab {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0%;
+}
+.final .menu-content-collab li {
+	text-align: center;
+	width: 3rem;
+	background-color: #333;
+	height: 3rem;
+	position: relative;
+}
+.final .menu-content-collab a {
+	font-size: 24px;
+}
+
