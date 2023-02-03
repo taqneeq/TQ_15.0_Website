@@ -17,7 +17,7 @@ function Home()
     return (
         <>
             <div className="bgvid">
-                <video autoPlay loop muted>
+                <video autoPlay  muted>
                     <source src={svid} type="video/mp4" />
                 </video>
             </div>
