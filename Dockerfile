@@ -15,5 +15,9 @@ RUN npm run build
 ENV NODE_ENV production
 # Expose the port on which the app will be running (3000 is the default that `serve` uses)
 EXPOSE 3000
+<<<<<<< HEAD
 # Start the app (development build)
+=======
+# Start the app
+>>>>>>> parent of 75fd26f (Trying production build of react)
 CMD [ "npm", "start" ]
