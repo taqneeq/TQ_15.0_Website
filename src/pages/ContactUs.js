@@ -39,7 +39,7 @@ function ContactUs()
                             <div className='m-3'>
                                 <img src={mobile} height={40} />
                                 <div className='fw-bold mt-3'>PHONE</div>
-                                <div className='fw-bolder fs-6'>Phone +63 996 632 521</div>
+                                <div className='fw-bolder fs-6'>Satyajeet Kadu: <a href='tel:+918369522946'>+91 83695 22946</a></div>
                             </div>
                         </div>
                         <div class="col-4 col-md-3" style={{ borderRight: '2px solid white' }}>
@@ -56,7 +56,7 @@ function ContactUs()
                             <div className='m-3'>
                                 <img src={email} height={40} />
                                 <div className='fw-bold mt-3'>EMAIL</div>
-                                <div className='fw-bolder fs-6'>Phone +63 996 632 521</div>
+                                <div className='fw-bolder fs-6'><a href='mailto:info@taqneeqfest.com'>info@taqneeqfest.com</a></div>
                             </div>
                         </div>
                     </div>
@@ -69,7 +69,7 @@ function ContactUs()
                         </div>
 
                         <div class="col-md-8 offset-md-2 wow fadeInUp">
-                            <Form noValidate validated={validated} onSubmit={handleSubmit}>
+                            {/* <Form noValidate validated={validated} onSubmit={handleSubmit}>
                                 <Form.Group md="4" controlId="validationCustom01">
                                     <Form.Control
                                         required
@@ -103,7 +103,7 @@ function ContactUs()
                                     <br></br>
                                     <Button className='mt-4' variant="outline-light" size="lg" type="submit">Submit</Button>
                                 </div>
-                            </Form>
+                            </Form> */}
                             <div>
                                 {/* <MapSection location={location} zoomLevel={17} /> include it here */}
                             </div>
