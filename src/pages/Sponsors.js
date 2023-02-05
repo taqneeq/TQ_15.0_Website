@@ -3,6 +3,16 @@ import { useEffect } from 'react';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import videobg from '../assets/svid.mp4'
+import alpha8 from '../assets/Sponsors/Alpha8.png'
+import herody from '../assets/Sponsors/Herody.png'
+import kettle from '../assets/Sponsors/Kettle.png'
+import misfits from '../assets/Sponsors/misfits.png'
+import mojoco from '../assets/Sponsors/Mojoco.png'
+import molly from '../assets/Sponsors/Molly.png'
+import nikist from '../assets/Sponsors/Nikist.png'
+import sc from '../assets/Sponsors/SC.png'
+import unibic from '../assets/Sponsors/Unibic.png'
+import wtf from '../assets/Sponsors/wtf.png'
 
 
 export default function Head()
@@ -73,31 +83,31 @@ export default function Head()
                         <div class="container-lg" data-aos="fade-up">
                             <div class="sponsor row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3" data-aos="fade-up">
                                 <div class="col" data-aos="fade-up">
-                                    <img data-aos="fade-up" data-aos-delay="500" src="https://1minus1-2021.s3.eu-west-2.amazonaws.com/lightspeed_logo_new_a2fce9d216.png" class="gallery-item" alt="gallery" />
+                                    <img data-aos="fade-up" data-aos-delay="500" src={alpha8} class="gallery-item alpha8" alt="gallery" />
                                 </div>
                                 <div class="col" data-aos="fade-up">
-                                    <img data-aos="fade-up" data-aos-delay="600" src="https://1minus1-2021.s3.eu-west-2.amazonaws.com/lightspeed_logo_new_a2fce9d216.png" class="gallery-item" alt="gallery" />
+                                    <img data-aos="fade-up" data-aos-delay="600" src={herody} class="gallery-item herody" alt="gallery" />
                                 </div>
                                 <div class="col" data-aos="fade-up">
-                                    <img data-aos="fade-up" data-aos-delay="700" src="https://1minus1-2021.s3.eu-west-2.amazonaws.com/lightspeed_logo_new_a2fce9d216.png" class="gallery-item" alt="gallery" />
+                                    <img data-aos="fade-up" data-aos-delay="700" src={kettle} class="gallery-item" alt="gallery" />
                                 </div>
                                 <div class="col" data-aos="fade-up">
-                                    <img data-aos="fade-up" data-aos-delay="800" src="https://1minus1-2021.s3.eu-west-2.amazonaws.com/lightspeed_logo_new_a2fce9d216.png" class="gallery-item" alt="gallery" />
+                                    <img data-aos="fade-up" data-aos-delay="800" src={misfits} class="gallery-item misfits" alt="gallery" />
                                 </div>
                                 <div class="col" data-aos="fade-up">
-                                    <img data-aos="fade-up" data-aos-delay="900" src="https://1minus1-2021.s3.eu-west-2.amazonaws.com/lightspeed_logo_new_a2fce9d216.png" class="gallery-item" alt="gallery" />
+                                    <img data-aos="fade-up" data-aos-delay="900" src={mojoco} class="gallery-item mojoco" alt="gallery" />
                                 </div>
                                 <div class="col" data-aos="fade-up">
-                                    <img data-aos="fade-up" data-aos-delay="1000" src="https://1minus1-2021.s3.eu-west-2.amazonaws.com/lightspeed_logo_new_a2fce9d216.png" class="gallery-item" alt="gallery" />
+                                    <img data-aos="fade-up" data-aos-delay="1000" src={molly} class="gallery-item molly" alt="gallery" />
                                 </div>
                                 <div class="col" data-aos="fade-up">
-                                    <img data-aos="fade-up" data-aos-delay="1100" src="https://1minus1-2021.s3.eu-west-2.amazonaws.com/lightspeed_logo_new_a2fce9d216.png" class="gallery-item" alt="gallery" />
+                                    <img data-aos="fade-up" data-aos-delay="1100" src={nikist} class="gallery-item nikist" alt="gallery" />
                                 </div>
                                 <div class="col" data-aos="fade-up">
-                                    <img data-aos="fade-up" data-aos-delay="1200" src="https://1minus1-2021.s3.eu-west-2.amazonaws.com/lightspeed_logo_new_a2fce9d216.png" class="gallery-item" alt="gallery" />
+                                    <img data-aos="fade-up" data-aos-delay="1200" src={sc} class="gallery-item sc" alt="gallery" />
                                 </div>
                                 <div class="col" data-aos="fade-up">
-                                    <img data-aos="fade-up" data-aos-delay="1300" src="https://1minus1-2021.s3.eu-west-2.amazonaws.com/lightspeed_logo_new_a2fce9d216.png" class="gallery-item" alt="gallery" />
+                                    <img data-aos="fade-up" data-aos-delay="1300" src={wtf} class="gallery-item wtf" alt="gallery" />
                                 </div>
                             </div>
                         </div>
