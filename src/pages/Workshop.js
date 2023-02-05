@@ -139,12 +139,65 @@ export default function Workshop()
                         <li />
                     </ul>
                     <div className="social">
-                        <i>
-                            12/1/2023
-                        </i>
-
+                        <i className="fab fa-facebook-f" />
+                        <i className="fab fa-twitter" />
+                        <i className="fab fa-instagram" />
+                        <i className="fab fa-github" />
                     </div>
                     <button data-bs-toggle="modal" data-bs-target="#Modal-2"></button>
+                </div>
+
+                <div className="wcard wcard2">
+                    <h2>RC Plane</h2>
+                    <i className="fas fa-arrow-right" />
+                    <p>Click here to register!</p>
+                    <div className="pic pic3" />
+                    <ul>
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                        <li />
+                    </ul>
+                    <div className="social">
+                        <i className="fab fa-facebook-f" />
+                        <i className="fab fa-twitter" />
+                        <i className="fab fa-instagram" />
+                        <i className="fab fa-github" />
+                    </div>
+                    <button data-bs-toggle="modal" data-bs-target="#Modal-3"></button>
                 </div>
 
                 <div className="wcard wcard3">
@@ -250,7 +303,7 @@ export default function Workshop()
                         <i className="fab fa-instagram" />
                         <i className="fab fa-github" />
                     </div>
-                    <button ></button>
+                    <button onClick={arvr}></button>
                 </div>
 
 
@@ -270,6 +323,29 @@ export default function Workshop()
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         <a  class="btn btn-primary" href="https://ugf11b5z0iy.typeform.com/to/m5XyietS">Register</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="Modal-3" tabindex="-1" aria-labelledby="Modal-3Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="modal-title" id="Modal-3Label">
+            <img class="workshop-modal-image" src='https://images.unsplash.com/photo-1624902106166-5e8170eeaa2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80' alt="plane" />
+        </div>
+      </div>
+      <div class="modal-body">
+        <h1>RC Plane Workshop</h1>
+        From learning the hows and implementing the construction of a model aircraft to actually flying it, we've got you covered 😉
+
+We present to you, RC Plane 101, brought to you by Taqneeq 15.0 and @team.victortango
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <a  class="btn btn-primary" href="https://ugf11b5z0iy.typeform.com/to/rOnfwieu">Register</a>
       </div>
     </div>
   </div>
