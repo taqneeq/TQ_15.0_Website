@@ -1339,9 +1339,9 @@ body {
 
 .bgvid {
 	position: fixed;
-	right: -32%;
+	right: -30%;
 	bottom: -16%;
-	min-width: 100%;
+	min-width: 133%;
 	min-height: 100%;
 	width: auto;
 	height: auto;
