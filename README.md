@@ -1,9 +1,8 @@
 # Getting Started with TaqneeqFestWebsite
 
-
 ## Available Scripts
 
-In the project directory, you can run:
+Testing
 
 ### `npm start`
 
