@@ -27,7 +27,7 @@ function Home() {
                 </div>
                 <h1 className='mt-2 display-1 fade-in-text delayed'>16.0</h1>
                 <strong className='fw-bold fade-in-text delayed'>
-                  NMIMS' MPSTME's OFFICIAL TECH FEST
+                  NMIMS' OFFICIAL TECH FEST
                 </strong>
               </div>
             </div>
